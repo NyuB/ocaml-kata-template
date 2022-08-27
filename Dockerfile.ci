@@ -1,0 +1,7 @@
+FROM ocaml/opam:debian
+
+COPY --chown=opam project /home/opam/project
+
+RUN opam install -y dune ounit2
+
+WORKDIR /home/opam/project

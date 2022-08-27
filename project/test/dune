@@ -1,0 +1,4 @@
+(tests
+ (names setup exercises)
+ (libraries lib ounit2)
+)

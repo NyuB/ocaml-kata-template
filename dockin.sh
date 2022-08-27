@@ -1,0 +1,1 @@
+docker run -it -v $PWD:/workspace --name $2 $1 bash

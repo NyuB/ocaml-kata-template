@@ -1,0 +1,3 @@
+FROM ocaml/opam:debian
+
+RUN opam install -y dune utop ocaml-lsp-server ounit2
